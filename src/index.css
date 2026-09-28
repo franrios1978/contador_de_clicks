@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+main {
+    
+    background-color: rgb(240, 216, 176);
+    width: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:rgb(2, 69, 69);
+    margin: center;
+}
+.contenedor_principal {
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.casilla {
+   
+    height: 25px;
+    width: 200px;
+    background-color: beige;
+    border: 1px solid black ;
+    text-align: center;
+
+}
+
+.contador_tiempo {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(247, 114, 42);
+    text-align: center;
+}
+
+.numero_clicks {
+    height: 25px;
+    width: 200px;
+    background-color: rgb(46, 240, 88);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+aside {
+    background-color: rgb(240, 216, 176);
+    width: 400px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-top: 5rem;
+}
+
+aside ol {
+    padding-left: 2rem;
+    text-align: left;
+}
+
+aside, h2 {
+    text-align: center;
+}
